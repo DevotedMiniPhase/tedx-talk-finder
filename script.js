@@ -57,3 +57,8 @@ async function fetchTalks() {
         console.error("Error fetching TEDx talks:", error);
     }
 }
+
+function resetResults() {
+    document.getElementById("results").innerHTML = ""; // Clear results
+    document.getElementById("query").value = ""; // Clear input field
+}
