@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TED and TEDx Talk Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/ted-logo.png" alt="TED Logo" class="logo">
+        <h1>TED and TEDx Talk Finder</h1>
+        <p>Discover the most popular talks by conference or topic.</p>
+
+        <label for="searchType">Select by topic/conference:</label>
+        <select id="searchType">
+            <option value="" disabled selected>Select</option>
+            <option value="conference">By Conference</option>
+            <option value="topic">By Topic</option>
+        </select>
+
+        <input type="text" id="query" placeholder="Enter Conference Name or Topic" class="input-box">
+        <input type="number" id="maxResults" value="10" min="1" max="50" class="input-box">
+        <button onclick="fetchTalks()">Search</button>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

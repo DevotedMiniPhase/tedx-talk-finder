@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.logo {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #cc0000;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.input-box, select, button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #990000;
+}
+
+/* Video Cards */
+.video-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 12px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+    transform: scale(1.03);
+}
+
+.video-thumbnail {
+    width: 140px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-info {
+    flex: 1;
+    text-align: left;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.video-title:hover {
+    text-decoration: underline;
+}
+
+.video-views {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
