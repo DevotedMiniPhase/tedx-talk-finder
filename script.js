@@ -1,4 +1,4 @@
-const API_KEY = 'api_key';
+const API_KEY = 'AIzaSyCH_RQKrQhJX7OtKuZ4ysfbsuzT87sDF6Q';
 
 async function fetchTalks() {
     const searchType = document.getElementById("searchType").value;
